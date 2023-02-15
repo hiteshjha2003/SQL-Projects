@@ -17,6 +17,7 @@ CREATE TABLE actor (
   last_name VARCHAR(45) NOT NULL,
   last_update TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ,
   PRIMARY KEY  (actor_id),
+	
   
 );
 
